@@ -21,8 +21,7 @@
       ```
 2. Indexing in postgres 
    1. First, we need to install postgres using `pip install django psycopg2-binary`
-   2. then, log into the postgres using `sudo -u postgres psql`
-   3. then enter the below commands to create a database. 
+   2. then enter the below commands to log in into postgres database and create a database. 
    
 | terminal                                                              | 
 |:----------------------------------------------------------------------|
