@@ -28,7 +28,7 @@
 | $ sudo -u postgres psql                                               |
 | postgres=# CREATE DATABASE test_index;                                |     
 | postgres=# CREATE USER test_index WITH PASSWORD 'test_index';         |     
-| postgres=# ALTER ROLE locator SUPERUSER;                              |     
+| postgres=# ALTER ROLE test_index SUPERUSER;                           |     
 | postgres=# GRANT ALL PRIVILEGES ON DATABASE test_index TO test_index; |
 
 3. Now, we need to change our database to postgres & add these lines in our settings.py file.
