@@ -29,7 +29,6 @@ def create_data(request):
 
 @api_view(['GET'])
 def get_data(request):
-    # temp = random.randint(50000, 51000)
     temp = random.randint(90000, 99999)
     get_product = Product.objects.get(name=temp)
     content = {'data': get_product.name}
