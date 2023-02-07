@@ -54,3 +54,4 @@
 10. Now test our index with the below command.
    `test_index=# EXPLAIN ANALYZE SELECT * FROM datarepo_product WHERE name='67677';`
 
+check out the [blog](https://docs.google.com/document/d/1xE7_fP6744V3ZzbtatEfBqZkZjyAwsg1J0zrWnVKOQA/edit?usp=sharing) for more details
